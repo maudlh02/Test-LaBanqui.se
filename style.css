@@ -1,0 +1,353 @@
+@media screen and (min-width:640px){
+    html{
+        font-family: 'Poppins', sans-serif;
+        align-items: center;
+    }
+
+    #menu li{
+        display: inline;
+    }
+
+    #menu{
+        background-color : #33575C;       
+    }
+
+    li{
+        list-style: none;
+    }
+
+    a{
+        text-decoration: none;
+        color : #F76B0A;
+        margin-left : 10%;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    #imgMenu{
+        width: 15%;
+    }
+
+    h1{
+        color: #707070;
+        margin-bottom : 5%;
+    }
+
+    h3{
+        color: #707070;
+        margin-bottom : 2%;
+    }
+
+    div{
+        color: #707070;
+        margin-bottom : 2%;
+    }
+
+    .gras{
+        font-weight: bold;
+    }
+
+    .cercle img{
+        width: 9rem;
+        height: 9rem;
+        margin: 1rem;
+        border-radius: 50%;
+        background:#d3d3d3;
+        display: inline-flex;
+        cursor: pointer;
+    }
+
+    img{
+        object-fit: scale-down; 
+        display: flex;
+        justify-content: space-between;
+    }
+
+    @-webkit-keyframes tourne {
+        0% {
+        -webkit-transform: rotate(0deg) scale(1.2);
+      }
+      100% {
+        -webkit-transform: rotate(360deg) scale(1);
+      }
+    }
+    @-moz-keyframes tourne {
+      0% {
+        -moz-transform: rotate(0deg) scale(1.2);
+      }
+      100% {
+        -moz-transform: rotate(360deg) scale(1);
+      }
+    }
+
+    @keyframes tourne {
+      0% {
+          transform: rotate(0deg) scale(1.2); 
+      }
+
+
+        100%
+        {
+            transform: rotate(360deg) scale(1);
+        }
+    }
+
+
+    .tourne{
+    -webkit-animation: tourne;
+      -moz-animation: tourne;
+      animation: tourne;
+        animation-duration: 1s;
+
+    }
+
+    span{
+        color: #F76B0A;
+    }
+
+    .carte{
+        background-color: #33575C;
+        color: #F76B0A;
+        text-align : center;
+        vertical-align: middle;
+        height: 15rem;
+        width: 17%;
+        margin: 3%;
+        padding: auto;
+        border-radius: 15%;
+        display: inline-flex;
+        position: relative;
+    }
+
+    .avatar{
+        border-radius: 50%;
+        padding: 3%;
+        width: auto;
+        max-width: 100%;
+        height: auto;
+        max-height: 100%;
+        overflow: hidden;
+        position: absolute;
+        left: 22%;
+
+    }
+
+    .nom{
+        text-align: center;
+        vertical-align: middle;
+        position: absolute;
+        top: 65%;
+        left: 31%;
+    }
+
+    .nom2{
+        text-align: center;
+        vertical-align: middle;
+        position: absolute;
+        top: 65%;
+        left: 25%;
+    }
+
+    footer{
+        background-color: #33575C;
+        text-align: center;
+        color: #FFFFFF;
+        font-family: 'Poppins', sans-serif;
+        height: 6rem;
+        bottom: 0;
+        position: relative;
+    }
+
+    p{
+        position: absolute;
+        top: 50%;
+        bottom :50%;
+        left: 32%;
+
+    }
+}
+
+@media screen and (max-width:640px){
+    body{
+        width: 92%;
+    }
+    
+    html{
+        font-family: 'Poppins', sans-serif;
+        align-items: center;
+    }
+    
+    nav{width:auto; float:right;}
+    nav ul{display:table; float:right;}
+    nav ul li{float:left;}
+    nav ul li:last-child{padding-right:0px;}
+    nav ul li a{color:#F76B0A; font-size:18px; padding: 25px 20px; display:inline-block; transition: all 0.5s ease 0s;}
+
+
+    #menu{
+        background-color : #33575C;       
+    }
+
+    li{
+        list-style: none;
+    }
+
+    a{
+        text-decoration: none;
+        color : #F76B0A;
+        margin-left : 10%;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    #imgMenu{
+        width: 15%;
+        margin-left: -25%;
+    }
+
+    h1{
+        color: #707070;
+        margin-bottom : 5%;
+    }
+
+    h3{
+        color: #707070;
+        margin-bottom : 2%;
+    }
+
+    div{
+        color: #707070;
+        margin-bottom : 2%;
+    }
+
+    .gras{
+        font-weight: bold;
+    }
+
+    .cercle img{
+        width: 9rem;
+        height: 9rem;
+        margin: 1rem;
+        border-radius: 50%;
+        background:#d3d3d3;
+        display: inline-flex;
+        cursor: pointer;
+        margin-left: 3%;
+    }
+    
+    .cercle #hugo{
+        margin-left: 27%;
+    }
+
+    img{
+        object-fit: scale-down; 
+        display: flex;
+        justify-content: space-between;
+    }
+
+    @-webkit-keyframes tourne {
+        0% {
+        -webkit-transform: rotate(0deg) scale(1.2);
+      }
+      100% {
+        -webkit-transform: rotate(360deg) scale(1);
+      }
+    }
+    @-moz-keyframes tourne {
+      0% {
+        -moz-transform: rotate(0deg) scale(1.2);
+      }
+      100% {
+        -moz-transform: rotate(360deg) scale(1);
+      }
+    }
+
+    @keyframes tourne {
+      0% {
+          transform: rotate(0deg) scale(1.2); 
+      }
+
+
+        100%
+        {
+            transform: rotate(360deg) scale(1);
+        }
+    }
+
+
+    .tourne{
+    -webkit-animation: tourne;
+      -moz-animation: tourne;
+      animation: tourne;
+        animation-duration: 1s;
+
+    }
+
+    span{
+        color: #F76B0A;
+    }
+
+    .carte{
+        background-color: #33575C;
+        color: #F76B0A;
+        text-align : center;
+        vertical-align: middle;
+        height: 10rem;
+        width: 12rem;
+        margin-left: 15%;
+        margin-bottom: 2rem;
+        padding: auto;
+        border-radius: 15%;
+        display: inline-flex;
+        position: relative;
+    }
+
+    .avatar{
+        border-radius: 50%;
+        padding: 17%;
+        width: 3rem;
+        height: 3rem;
+        max-width: 100%;
+        height: auto;
+        max-height: 100%;
+        overflow: hidden;
+        position: absolute;
+        left: 22%;
+
+    }
+
+    .nom{
+        text-align: center;
+        vertical-align: middle;
+        position: absolute;
+        top: 65%;
+        left: 25%;
+    }
+
+    .nom2{
+        text-align: center;
+        vertical-align: middle;
+        position: absolute;
+        top: 65%;
+        left: 20%;
+    }
+
+    footer{
+        background-color: #33575C;
+        text-align: center;
+        color: #FFFFFF;
+        font-family: 'Poppins', sans-serif;
+        height: 5rem;
+        bottom: 0%;
+        position: relative;
+    }
+
+    p{
+        position: absolute;
+        top: 25%;
+        left :5%;
+        word-wrap:break-word;
+    
+
+    }
+}
